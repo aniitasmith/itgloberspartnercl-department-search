@@ -31,7 +31,7 @@ The custom-department-search component is a department filter component, it allo
   },
    ```
 
-   Block name     | Description                                     |
+   Block name      | Description                                     |
 | -------------- | ----------------------------------------------- |
 | `department-search` | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red)  Top level block that must be declared in the `store-theme` block to render department search   |
 

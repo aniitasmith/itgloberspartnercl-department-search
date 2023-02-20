@@ -15,8 +15,6 @@ type Category = {
 const DepartmentGroup = ({ departments, handleSetSlug }: Props) => {
 
   const CSS_HANDLES = [
-    'container-loading',
-    'container-department-search-custom',
     'cont-select-option'
   ]
   const handles = useCssHandles(CSS_HANDLES)

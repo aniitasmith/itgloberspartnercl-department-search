@@ -9,7 +9,8 @@ const DepartmentSearch = () => {
 
   const CSS_HANDLES = [
     'container-loading',
-    'container-department-search-custom'
+    'container-department-search-custom',
+    'department-search-bar-custom'
   ]
   const handles = useCssHandles(CSS_HANDLES)
 

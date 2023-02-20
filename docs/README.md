@@ -31,7 +31,13 @@ The custom-department-search component is a department filter component, it allo
   },
    ```
 
+   Block name      | Description                                     |
+| -------------- | ----------------------------------------------- |
+| `department-search` | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red)  Top level block that must be declared in the `store-theme` block to render department search   |
+
 ## Customization
+
+In order to apply CSS customizations in this and other blocks, follow the instructions given in the recipe on [Using CSS Handles for store customization](https://vtex.io/docs/recipes/style/using-css-handles-for-store-customization).
 
 | CSS Handles |
 | ----------- | 

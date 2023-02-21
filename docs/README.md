@@ -4,11 +4,11 @@
 
 <!-- DOCS-IGNORE:start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
+![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-The custom-department-search component is a department filter component, it allows you to do custom searches by store department and thus find the desired product much faster.
+The custom-department-search component is a department filter component, it allows you to do custom searches by store department and this find the desired product much faster.
 
 <img width="508" alt="image" src="https://user-images.githubusercontent.com/66226368/219815280-3cdd75f2-21f4-498d-94c4-369f9f8e08e9.png">
 
@@ -16,7 +16,7 @@ The custom-department-search component is a department filter component, it allo
 
 1. Import the Department Search's app to your theme's dependencies in the manifest.json, for example:
 ```json
-  dependencies: {
+  "dependencies": {
     "{vendor}.custom-department-search": "0.x"
   }
  ```
@@ -31,9 +31,9 @@ The custom-department-search component is a department filter component, it allo
   },
    ```
 
-   Block name      | Description                                     |
+|   Block name   | Description                                     |
 | -------------- | ----------------------------------------------- |
-| `department-search` | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red)  Top level block that must be declared in the `store-theme` block to render department search   |
+| `department-search` | ![https://img.shields.io/badge/-Mandatory-red](https://img.shields.io/badge/-Mandatory-red) Top level block that must be declared in the `store-theme` block to render department search   |
 
 ## Customization
 
@@ -41,8 +41,8 @@ In order to apply CSS customizations in this and other blocks, follow the instru
 
 | CSS Handles |
 | ----------- | 
-|`container-department-search-custom'`|
-|`container-loading'`|
+|`container-department-search-custom`|
+|`container-loading`|
 |`cont-select-option`|
 
 <!-- DOCS-IGNORE:start -->
